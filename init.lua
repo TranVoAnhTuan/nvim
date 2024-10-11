@@ -7,4 +7,5 @@ _G.dd = function(...)
 end
 vim.print = _G.dd
 vim.opt.clipboard:append("unnamedplus")  -- Sử dụng clipboard hệ thống
+
 require("config.lazy")
